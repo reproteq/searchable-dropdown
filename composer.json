@@ -1,5 +1,5 @@
 {
-    "name": "teofanis/searchable-dropdown",
+    "name": "reproteq/searchable-dropdown",
     "description": "Searchable Dropdown",
     "keywords": [
         "teofanis",
@@ -10,8 +10,8 @@
     "type": "library",
     "authors": [
         {
-            "name": "Teofanis Papadopulos",
-            "email": "teos_97@hotmail.com",
+            "name": "reproteq searchable-dropdown",
+            "email": "reproteq@hotmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Teofanis\\SearchableDropdown\\": "src"
+            "reproteq\\SearchableDropdown\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Teofanis\\SearchableDropdown\\Tests\\": "tests"
+            "reproteq\\SearchableDropdown\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Teofanis\\SearchableDropdown\\SearchableDropdownServiceProvider"
+                "reproteq\\SearchableDropdown\\SearchableDropdownServiceProvider"
             ]
         }
     }
